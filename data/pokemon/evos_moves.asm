@@ -259,8 +259,9 @@ SpearowEvosMoves:
 	db 9, LEER
 	db 15, FURY_ATTACK
 	db 22, MIRROR_MOVE
-	db 29, DRILL_PECK
-	db 36, AGILITY
+	db 27, RAZOR_WIND
+	db 33, DRILL_PECK
+	db 40, AGILITY
 	db 0
 
 VoltorbEvosMoves:
@@ -304,6 +305,7 @@ IvysaurEvosMoves:
 ; Learnset
 	db 7, LEECH_SEED
 	db 13, VINE_WHIP
+	db 19, TAKE_DOWN
 	db 22, POISONPOWDER
 	db 30, RAZOR_LEAF
 	db 38, GROWTH
@@ -519,10 +521,11 @@ BlastoiseEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 8, BUBBLE
-	db 15, WATER_GUN
-	db 24, BITE
-	db 31, WITHDRAW
+	db 8, WATER_GUN
+	db 15, WITHDRAW
+	db 24, HEADBUTT
+	db 28, MIST
+	db 31, BUBBLEBEAM
 	db 42, SKULL_BASH
 	db 52, HYDRO_PUMP
 	db 0
@@ -595,9 +598,10 @@ FearowEvosMoves:
 ; Learnset
 	db 9, LEER
 	db 15, FURY_ATTACK
-	db 25, MIRROR_MOVE
-	db 34, DRILL_PECK
-	db 43, AGILITY
+	db 24, MIRROR_MOVE
+	db 30, RAZOR_WIND
+	db 37, DRILL_PECK
+	db 45, AGILITY
 	db 0
 
 PidgeyEvosMoves:
@@ -605,12 +609,13 @@ PidgeyEvosMoves:
 	db EVOLVE_LEVEL, 18, PIDGEOTTO
 	db 0
 ; Learnset
-	db 5, SAND_ATTACK
+	db 8, GUST
 	db 12, QUICK_ATTACK
-	db 19, WHIRLWIND
-	db 28, WING_ATTACK
-	db 36, AGILITY
-	db 44, MIRROR_MOVE
+	db 17, WING_ATTACK
+	db 21, WHIRLWIND
+	db 27, TAKE_DOWN
+	db 34, AGILITY
+	db 45, MIRROR_MOVE
 	db 0
 
 SlowpokeEvosMoves:
@@ -714,11 +719,11 @@ ArbokEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 10, POISON_STING
-	db 17, BITE
-	db 27, GLARE
+	db 10, BITE
+	db 17, ACID
+	db 27, SLAM
 	db 36, SCREECH
-	db 47, ACID
+	db 47, GLARE
 	db 0
 
 ParasectEvosMoves:
@@ -1352,11 +1357,11 @@ EkansEvosMoves:
 	db EVOLVE_LEVEL, 22, ARBOK
 	db 0
 ; Learnset
-	db 10, POISON_STING
-	db 17, BITE
-	db 24, GLARE
+	db 10, BITE
+	db 17, ACID
+	db 24, SLAM
 	db 31, SCREECH
-	db 38, ACID
+	db 38, GLARE
 	db 0
 
 ParasEvosMoves:
@@ -1404,18 +1409,20 @@ KakunaEvosMoves:
 	db EVOLVE_LEVEL, 10, BEEDRILL
 	db 0
 ; Learnset
+	db 7, HARDEN
 	db 0
 
 BeedrillEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 12, FURY_ATTACK
+	db 10, FURY_ATTACK
+	db 12, RAGE
 	db 16, FOCUS_ENERGY
 	db 20, TWINEEDLE
-	db 25, RAGE
-	db 30, PIN_MISSILE
-	db 35, AGILITY
+	db 25, AGILITY
+	db 30, SPIKE_CANNON
+	db 35, PIN_MISSILE
 	db 0
 
 MissingNo73EvosMoves:
@@ -1519,10 +1526,10 @@ ButterfreeEvosMoves:
 	db 13, POISONPOWDER
 	db 14, STUN_SPORE
 	db 15, SLEEP_POWDER
-	db 18, SUPERSONIC
-	db 23, WHIRLWIND
-	db 28, GUST
-	db 34, PSYBEAM
+	db 18, GUST
+	db 23, PSYBEAM
+	db 28, WHIRLWIND
+	db 34, PSYCHIC_M
 	db 0
 
 MachampEvosMoves:
@@ -1751,11 +1758,12 @@ PidgeottoEvosMoves:
 	db EVOLVE_LEVEL, 36, PIDGEOT
 	db 0
 ; Learnset
-	db 5, SAND_ATTACK
+	db 8, GUST
 	db 12, QUICK_ATTACK
-	db 21, WHIRLWIND
-	db 31, WING_ATTACK
-	db 40, AGILITY
+	db 17, WING_ATTACK
+	db 23, WHIRLWIND
+	db 31, TAKE_DOWN
+	db 38, AGILITY
 	db 49, MIRROR_MOVE
 	db 0
 
@@ -1763,10 +1771,11 @@ PidgeotEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 5, SAND_ATTACK
+	db 8, GUST
 	db 12, QUICK_ATTACK
-	db 21, WHIRLWIND
-	db 31, WING_ATTACK
+	db 17, WING_ATTACK
+	db 23, WHIRLWIND
+	db 31, TAKE_DOWN
 	db 44, AGILITY
 	db 54, MIRROR_MOVE
 	db 0
@@ -1784,6 +1793,7 @@ BulbasaurEvosMoves:
 ; Learnset
 	db 7, LEECH_SEED
 	db 13, VINE_WHIP
+	db 17, TAKE_DOWN
 	db 20, POISONPOWDER
 	db 27, RAZOR_LEAF
 	db 34, GROWTH
@@ -1797,6 +1807,7 @@ VenusaurEvosMoves:
 ; Learnset
 	db 7, LEECH_SEED
 	db 13, VINE_WHIP
+	db 19, TAKE_DOWN
 	db 22, POISONPOWDER
 	db 30, RAZOR_LEAF
 	db 43, GROWTH
@@ -1905,8 +1916,10 @@ RattataEvosMoves:
 ; Learnset
 	db 7, QUICK_ATTACK
 	db 14, HYPER_FANG
-	db 23, FOCUS_ENERGY
+	db 17, FOCUS_ENERGY
+	db 22, SHARPEN
 	db 34, SUPER_FANG
+	db 40, DOUBLE_EDGE
 	db 0
 
 RaticateEvosMoves:
@@ -1915,8 +1928,10 @@ RaticateEvosMoves:
 ; Learnset
 	db 7, QUICK_ATTACK
 	db 14, HYPER_FANG
-	db 27, FOCUS_ENERGY
+	db 17, FOCUS_ENERGY
+	db 26, SHARPEN
 	db 41, SUPER_FANG
+	db 50, DOUBLE_EDGE
 	db 0
 
 NidorinoEvosMoves:
@@ -2014,10 +2029,11 @@ CharmanderEvosMoves:
 	db EVOLVE_LEVEL, 16, CHARMELEON
 	db 0
 ; Learnset
-	db 9, EMBER
-	db 15, LEER
-	db 22, RAGE
-	db 30, SLASH
+	db 8, EMBER
+	db 14, RAGE
+	db 17, SMOKESCREEN
+	db 22, SLASH
+	db 30, DRAGON_RAGE
 	db 38, FLAMETHROWER
 	db 46, FIRE_SPIN
 	db 0
@@ -2027,12 +2043,13 @@ SquirtleEvosMoves:
 	db EVOLVE_LEVEL, 16, WARTORTLE
 	db 0
 ; Learnset
-	db 8, BUBBLE
-	db 15, WATER_GUN
-	db 22, BITE
-	db 28, WITHDRAW
+	db 8, WATER_GUN
+	db 15, WITHDRAW
+	db 18, HEADBUTT
+	db 22, MIST
+	db 27, BUBBLEBEAM
 	db 35, SKULL_BASH
-	db 42, HYDRO_PUMP
+	db 40, HYDRO_PUMP
 	db 0
 
 CharmeleonEvosMoves:
@@ -2040,10 +2057,11 @@ CharmeleonEvosMoves:
 	db EVOLVE_LEVEL, 36, CHARIZARD
 	db 0
 ; Learnset
-	db 9, EMBER
-	db 15, LEER
-	db 24, RAGE
-	db 33, SLASH
+	db 8, EMBER
+	db 15, RAGE
+	db 21, SMOKESCREEN
+	db 28, SLASH
+	db 35, DRAGON_RAGE
 	db 42, FLAMETHROWER
 	db 56, FIRE_SPIN
 	db 0
@@ -2053,10 +2071,11 @@ WartortleEvosMoves:
 	db EVOLVE_LEVEL, 36, BLASTOISE
 	db 0
 ; Learnset
-	db 8, BUBBLE
-	db 15, WATER_GUN
-	db 24, BITE
-	db 31, WITHDRAW
+	db 8, WATER_GUN
+	db 15, WITHDRAW
+	db 24, HEADBUTT
+	db 28, MIST
+	db 31, BUBBLEBEAM
 	db 39, SKULL_BASH
 	db 47, HYDRO_PUMP
 	db 0
@@ -2065,10 +2084,12 @@ CharizardEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 9, EMBER
-	db 15, LEER
-	db 24, RAGE
-	db 36, SLASH
+	db 8, EMBER
+	db 14, RAGE
+	db 17, SMOKESCREEN
+	db 22, SLASH
+	db 30, DRAGON_RAGE
+	db 36, WING_ATTACK
 	db 46, FLAMETHROWER
 	db 55, FIRE_SPIN
 	db 0
