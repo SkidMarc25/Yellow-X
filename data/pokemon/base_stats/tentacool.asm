@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/tentacool.pic", 0, 1 ; sprite dimensions
 	dw TentacoolPicFront, TentacoolPicBack
 
-	db BUBBLE, POISON_STING, NO_MOVE, NO_MOVE ; level 1 learnset
+	db BUBBLE, POISON_STING, CONSTRICT, NO_MOVE ; level 1 learnset
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset
