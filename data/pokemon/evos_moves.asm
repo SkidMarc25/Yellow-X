@@ -1098,9 +1098,9 @@ PikachuEvosMoves:
 	db 0
 ; Learnset
 	db 6, TAIL_WHIP
-	db 8, THUNDER_WAVE
+	db 8, THUNDERSHOCK
 	db 11, QUICK_ATTACK
-	db 15, DOUBLE_TEAM
+	db 15, THUNDER_WAVE
 	db 20, SLAM
 	db 26, THUNDERBOLT
 	db 33, AGILITY
@@ -1211,22 +1211,24 @@ SandshrewEvosMoves:
 	db EVOLVE_LEVEL, 22, SANDSLASH
 	db 0
 ; Learnset
-	db 10, SAND_ATTACK
-	db 17, SLASH
-	db 24, POISON_STING
-	db 31, SWIFT
-	db 38, FURY_SWIPES
+	db 10, POISON_STING
+	db 17, SHARPEN
+	db 22, FURY_SWIPES
+	db 29, DIG
+	db 33, SLASH
+	db 40, EARTHQUAKE
 	db 0
 
 SandslashEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 10, SAND_ATTACK
-	db 17, SLASH
-	db 27, POISON_STING
-	db 36, SWIFT
-	db 47, FURY_SWIPES
+	db 10, POISON_STING
+	db 17, SHARPEN
+	db 25, FURY_SWIPES
+	db 32, DIG
+	db 40, SLASH
+	db 51, EARTHQUAKE
 	db 0
 
 OmanyteEvosMoves:
