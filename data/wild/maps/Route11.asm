@@ -1,13 +1,13 @@
 Route11WildMons:
 	def_grass_wildmons 15 ; encounter rate
-	db 16, PIDGEY
-	db 15, RATTATA
-	db 18, PIDGEY
+	db 16, RATTATA
+	db 15, EKANS
+	db 18, JIGGLYPUFF
 	db 15, DROWZEE
-	db 17, RATTATA
+	db 17, VENONAT
 	db 17, DROWZEE
-	db 18, PIDGEOTTO
-	db 20, PIDGEOTTO
+	db 18, VOLTORB
+	db 20, MAGNEMITE
 	db 19, DROWZEE
 	db 17, RATICATE
 	end_grass_wildmons
