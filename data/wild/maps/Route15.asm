@@ -4,11 +4,11 @@ Route15WildMons:
 	db 26, BELLSPROUT
 	db 24, VENONAT
 	db 32, PIDGEOTTO
-	db 28, ODDISH
-	db 28, BELLSPROUT
+	db 28, PIKACHU
+	db 28, PONYTA
 	db 30, GLOOM
 	db 30, WEEPINBELL
-	db 27, VENONAT
+	db 27, DITTO
 	db 30, VENOMOTH
 	end_grass_wildmons
 
