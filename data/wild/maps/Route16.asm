@@ -4,9 +4,9 @@ Route16WildMons:
 	db 22, DODUO
 	db 23, RATTATA
 	db 24, DODUO
-	db 24, RATTATA
-	db 26, DODUO
-	db 23, SPEAROW
+	db 24, PONYTA
+	db 26, KOFFING
+	db 23, SLOWPOKE
 	db 24, FEAROW
 	db 25, RATICATE
 	db 26, RATICATE
