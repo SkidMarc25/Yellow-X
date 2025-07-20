@@ -1551,7 +1551,7 @@ ItemUseMedicine:
 	ld [wWhichPokemon], a
 
 	callfar TryEvolvingMon
-	ld a, $01
+	
 	ld [wUpdateSpritesEnabled], a
 	pop af
 	ld [wCurItem], a
@@ -1761,6 +1761,7 @@ ItemUsePokeDoll:
 	dec a
 	jp nz, ItemUseNotTime
 	ld a, $01
+	ld [wBattleResult], a
 	ld [wEscapedFromBattle], a
 	jp PrintItemUseTextAndRemoveItem
 
