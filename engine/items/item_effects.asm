@@ -2494,9 +2494,9 @@ ItemUseTMHM:
 	ld [wCurItem], a
 	pop af
 	ld [wWhichPokemon], a
-	ld a, b
-	and a
-	ret z
+	; ld a, b
+	; and a
+	; ret z
 
 	ld a, [wWhichPokemon]
 	push af
@@ -2505,7 +2505,7 @@ ItemUseTMHM:
 	callabd_ModifyPikachuHappiness PIKAHAPPY_USEDTMHM
 	callfar IsThisPartymonStarterPikachu_Party
 	jr nc, .notTeachingThunderboltOrThunderToPikachu
-	ld a, [wCurItem]
+	; ld a, [wCurItem]
 	cp TM_THUNDERBOLT ; are we teaching thunderbolt to the player pikachu?
 	jr z, .teachingThunderboltOrThunderToPlayerPikachu
 	cp TM_THUNDER ; are we teaching thunder then?
@@ -2519,10 +2519,11 @@ ItemUseTMHM:
 	pop af
 	ld [wWhichPokemon], a
 
-	ld a, [wCurItem]
-	call IsItemHM
-	ret c
-	jp RemoveUsedItem
+	; ld a, [wCurItem]
+	; call IsItemHM
+	; ret c
+	; jp RemoveUsedItem
+        ret
 
 BootedUpTMText:
 	text_far _BootedUpTMText
