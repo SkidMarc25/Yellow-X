@@ -15,10 +15,10 @@
 
 	; tm/hm learnset
 	tmhm MEGA_PUNCH,   MEGA_KICK,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
-	     DOUBLE_EDGE,  SUBMISSION,   COUNTER,      SEISMIC_TOSS, RAGE,         \
-	     DIG,          PSYCHIC_M,    TELEPORT,     MIMIC,        DOUBLE_TEAM,  \
-	     REFLECT,      BIDE,         METRONOME,    SKULL_BASH,   REST,         \
-	     THUNDER_WAVE, PSYWAVE,      TRI_ATTACK,   SUBSTITUTE,   FLASH
+	     DOUBLE_EDGE,  SUBMISSION,   COUNTER,      SEISMIC_TOSS, MEDITATE,         \
+	     PSYCHIC_M,    MIMIC,        DOUBLE_TEAM,  REFLECT,      REST,		\
+	     BIDE,         METRONOME,    SKULL_BASH,   THUNDER_WAVE, SUBSTITUTE,	\
+	     FLASH
 	; end
 
 	db 0 ; padding
