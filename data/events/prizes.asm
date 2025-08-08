@@ -4,27 +4,27 @@ PrizeDifferentMenuPtrs:
 	dw PrizeMenuTMsEntries,  PrizeMenuTMsCost
 
 PrizeMenuMon1Entries:
+	db MEOWTH
 	db ABRA
-	db VULPIX
-	db WIGGLYTUFF
+	db PORYGON
 	db "@"
 
 PrizeMenuMon1Cost:
-	bcd2 230
-	bcd2 1000
-	bcd2 2680
+	bcd2 200
+	bcd2 800
+	bcd2 9999
 	db "@"
 
 PrizeMenuMon2Entries:
-	db SCYTHER
-	db PINSIR
-	db PORYGON
+	db MAGMAR
+	db JYNX
+	db ELECTABUZZ
 	db "@"
 
 PrizeMenuMon2Cost:
 	bcd2 6500
 	bcd2 6500
-	bcd2 9999
+	bcd2 6500
 	db "@"
 
 PrizeMenuTMsEntries:
